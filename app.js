@@ -4,7 +4,7 @@ const expressLayouts = require('express-ejs-layouts')
 const app = express()
 const port = 3000
 
-const homeRouter = require('./routes/home.js')
+const homeRouter = require('./routes/homeRouter.js')
 
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
